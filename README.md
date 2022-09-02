@@ -16,7 +16,7 @@
 
 <h2 align="left">⚡ Installation (Terminal de commande)</h2>
 
-<h4>
+
 1. Installer la dernière version de npm
     ```
     npm install npm@latest -g
@@ -32,7 +32,6 @@
     npm start
     ```
 
-    </h4>
 ⚠️ *Attention, certains réglages sont obligatoires*⚠️
 
 ---
