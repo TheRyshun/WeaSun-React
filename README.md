@@ -25,9 +25,7 @@ Installer la dernière version de npm<br><br>
     ```
 <br><br>
 Mettre en place le git clone<br><br>
-    ```
-    git clone https://github.com/TheRyshun/WeaSun-React.git
-    ```
+    ```git clone https://github.com/TheRyshun/WeaSun-React.git```
 <br><br>
 ⚠️ Attention, certains réglages sont obligatoires⚠️
 </h4>
