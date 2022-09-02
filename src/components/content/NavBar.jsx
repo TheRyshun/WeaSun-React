@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { CgMenuRound } from "react-icons/cg";
 import { CgCloseO } from "react-icons/cg";
+import {Link} from 'react-router-dom'
 
 const NavBar = () => {
 
@@ -13,16 +14,20 @@ const NavBar = () => {
 
   return (
     <body className='bg-black'>
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-8 text-white'>
-    <h1 className='w-full text-3xl font-bold text-[#CE2ADC]'>🌤 WeaSun. test</h1>
-    <ul className='hidden md:flex'>
-      <li className='p-4 hover:rounded-full appearance-none border-0 border-t border-b border-yellow-300'>Hub</li>
-      <li className='p-4 hover:rounded-full appearance-none border-0 border-t border-b border-yellow-300'>Ressources</li>
+    <div className='flex justify-between items-center h-24 mx-auto px-8 text-white'>
+    <p className='flex w-full text-5xl font-bold text-[#CE2ADC]'>🌤
+      <h1 className='font-caveat'>
+      WeaSun
+      </h1>
+    </p>
+    <ul className='hidden md:flex font-bold'>
+      <li className='p-4 hover:rounded-full appearance-none border-0 border-t border-b border-yellow-300'><Link to="/">Hub</Link></li>
+      <li className='p-4 hover:rounded-full appearance-none border-0 border-t border-b border-yellow-300'><Link to="/ressources">Ressources</Link></li>
       <li className='p-4 hover:rounded-full appearance-none border-0 border-t border-b border-yellow-300'>About</li>
       <li className='p-4 hover:rounded-full appearance-none border-0 border-t border-b border-yellow-300'>GitHub</li>
     </ul>
 
-    <ul className='pl-12 hidden md:flex items-center gap-6 tracking-widest'>
+    <ul className='pl-12 hidden md:flex items-center gap-6 tracking-widest font-bold'>
         <li className='p-4 py-3 rounded-full border-2 border-blue-400 hover:bg-gradient-to-br from-sky-500 to-[#f04fff]'>LOGIN</li>
         <li className='p-4 py-3 rounded-full border-2 border-blue-400 hover:bg-gradient-to-br from-sky-500 to-[#f04fff]'>REGISTER</li>
     </ul>
