@@ -14,22 +14,26 @@
 
 ###
 
-<h2 align="left">⚡ Installation</h2>
+<h2 align="left">⚡ Installation (Terminal de commande)</h2>
 
-###
-
-<h4 align="left">
-Installer la dernière version de npm<br><br>
+1. Installer la dernière version de npm
     ```
     npm install npm@latest -g
     ```
-<br><br>
-Mettre en place le git clone<br><br>
-    ```git clone https://github.com/TheRyshun/WeaSun-React.git```
-<br><br>
-⚠️ Attention, certains réglages sont obligatoires⚠️
-</h4>
+3. Mettre en place le git clone
 
+    ```
+    git clone https://github.com/TheRyshun/WeaSun-React.git
+    ```
+3. Un petit start ?
+
+    ```
+    npm start
+    ```
+
+⚠️ *Attention, certains réglages sont obligatoires*⚠️
+
+---
 ###
 
 <h2 align="left">📋 RoadMap</h2>
