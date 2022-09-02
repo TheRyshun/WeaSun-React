@@ -86,7 +86,6 @@
 <br>
 <p align="center">════════════════════════════════════════════════════════════════════════════</p>
 <br>
-###
 
 <div align="center">
   <a href="https://www.linkedin.com/in/thomas-tetrel/" target="_blank">
