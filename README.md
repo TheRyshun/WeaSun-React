@@ -18,7 +18,19 @@
 
 ###
 
-<h4 align="left">Installer la dernière version de npm<br><br>npm install npm@latest -g<br><br>Mettre en place le git clone<br><br>git clone https://github.com/TheRyshun/WeaSun-React.git<br><br>⚠️ Attention, certains réglages sont obligatoires⚠️</h4>
+<h4 align="left">
+Installer la dernière version de npm<br><br>
+    ```
+    npm install npm@latest -g
+    ```
+<br><br>
+Mettre en place le git clone<br><br>
+    ```
+    git clone https://github.com/TheRyshun/WeaSun-React.git
+    ```
+<br><br>
+⚠️ Attention, certains réglages sont obligatoires⚠️
+</h4>
 
 ###
 
@@ -68,7 +80,7 @@
 
 ###
 
-<p align="center">════════════════════════════════════════════════════════════════════════════════════════════════</p>
+<p align="center">════════════════════════════════════════════════════════════════════════════</p>
 
 ###
 
