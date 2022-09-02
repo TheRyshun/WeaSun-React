@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WeaSun/static/css/main.521bd2c9.css",
+    "main.js": "/WeaSun/static/js/main.d2496757.js",
+    "static/media/ocean.webp": "/WeaSun/static/media/ocean.8bbd4562ff190c3eab18.webp",
+    "static/media/heart.gif": "/WeaSun/static/media/heart.26a69aba37e631cddf24.gif",
+    "static/media/weather-content-1.png": "/WeaSun/static/media/weather-content-1.eb441a8c461c7cb0ac6b.png",
+    "index.html": "/WeaSun/index.html",
+    "main.521bd2c9.css.map": "/WeaSun/static/css/main.521bd2c9.css.map",
+    "main.d2496757.js.map": "/WeaSun/static/js/main.d2496757.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.521bd2c9.css",
+    "static/js/main.d2496757.js"
+  ]
+}
