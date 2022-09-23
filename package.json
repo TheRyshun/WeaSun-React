@@ -2,7 +2,7 @@
   "name": "weasun",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://TheRyshun.github.io/Weasun",
+  "homepage": "http://TheRyshun.github.io/WeaSun-React",
   "proxy": "http://localhost:3001",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
