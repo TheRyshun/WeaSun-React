@@ -1,5 +1,7 @@
 import React from 'react'
 import { AiFillGithub } from "react-icons/ai";
+import { BsDiscord } from "react-icons/bs";
+
 
 const Newsletter = () => {
   return (
@@ -16,7 +18,7 @@ const Newsletter = () => {
                             </button>
 
                         <button type="button" class="text-black bg-white font-medium rounded-full text-sm px-4 py-2.5 text-center inline-flex items-center">
-                            <AiFillGithub size={30} className='mx-auto' />
+                            <BsDiscord size={30} className='mx-auto' />
                             </button>
                         </div>
                     </div>       

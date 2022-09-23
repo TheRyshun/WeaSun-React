@@ -3,34 +3,31 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 /* Pages Web */
-import Ressources from "./components/content/assets/Ressources/Ressources";
+import Ressources from "./components/content/assets/RessourcesP/Ressources";
 import Home from "./components/content/assets/HomeP/Home";
 import About from "./components/content/assets/AboutP/About";
-
-/* Composents des pages */
-
-import NavBar from "./components/content/NavBar";
-import Starter from './components/content/assets/HomeP/Starter';
-import Content from './components/content/assets/HomeP/Content';
-import Newsletter from './components/content/assets/HomeP/Newsletter';
-import Card from './components/content/assets/HomeP/Card';
-
-import Footer from './components/content/Footer';
-
+import Register from "./components/content/assets/Register/Register";
+import Login from "./components/content/assets/LoginP/Login";
+import Panel from './components/content/assets/panel/Panel';
+import Trial from './components/content/assets/TrialVersion/Trial';
 
 function App() {
-  return (
+  return (    
     <div className="App">
-    <NavBar/>
+    <Router>
     <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/ressources" element={<Ressources />} />
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="/" element={<Home />}/> 
+        <Route path="/home" element={<Home />}/> 
+        <Route path="/ressources" element={<Ressources />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/panel" element={<Panel />} />
+        <Route path="/trial" element={<Trial />} />
     </Routes>
-    <Footer/>
+    </Router>
 
 </div>
-
   );
 }
 

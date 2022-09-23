@@ -10,9 +10,9 @@ const NavBar = () => {
         <h1 className="text-2xl font-bold">Our Most Popular Services</h1>
         <p className="text-xl">Fully licensed, bonded et insured</p>
       </div>
-      <div class="p-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="p-12 grid grid-cols-auto md:grid-cols-4 gap-4">
 
-        <div class="bg-blue-300 py-6 px-4 border-l-4 border-[#CE2ADC]">
+        <div class="bg-blue-300 py-6 px-4 border-l-4 border-[#CE2ADC] col-span-2 md:col-span-1">
           <VscGroupByRefType size={40}/>
           <h1 className="py-2 text-xl md:text-2xl font-bold italic">
           React-Typed            
@@ -22,17 +22,17 @@ const NavBar = () => {
           </p>
           </div>
 
-          <div class="bg-blue-300 py-6 px-4 border-l-4 border-[#CE2ADC]">
+          <div class="bg-blue-300 py-6 px-4 border-l-4 border-[#CE2ADC]  col-span-2 md:col-span-1">
           <MdRouter size={40}/>
           <h1 className="py-2 text-xl md:text-2xl font-bold italic">
           React-router-dom            
           </h1>
           <p>
-          Une bibliothèque de routage complète, côté client et côté serveur permettant de créer des interfaces utilisateur.
+          Bibliothèque de routage complète, côté client et côté serveur permettant de créer des interfaces utilisateur.
           </p>
           </div>
 
-          <div class="bg-blue-300 py-6 px-4 border-l-4 border-[#CE2ADC] md:col-span-2">
+          <div class="bg-blue-300 py-6 px-4 border-l-4 border-[#CE2ADC] col-span-2">
           <MdRouter size={40}/>
           <h1 className="py-2 text-xl md:text-2xl font-bold italic">
           Ajax            
@@ -42,13 +42,13 @@ const NavBar = () => {
           </p>
           </div>
 
-          <div class="bg-blue-300 py-6 px-4 border-l-4 border-[#CE2ADC] md:col-span-2">
+          <div class="bg-blue-300 py-6 px-4 border-l-4 border-[#CE2ADC] col-span-2">
           <MdRouter size={40}/>
           <h1 className="py-2 text-xl md:text-2xl font-bold italic">
           React.JS            
           </h1>
           <p>
-          I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.
+          React est une bibliothèque JavaScript libre développée par Facebook depuis 2013. Le but principal de cette bibliothèque est de faciliter la création d'application web monopage, via la création de composants dépendant d'un état et générant une page HTML à chaque changement d'état.
           </p>
           </div>
 
@@ -58,7 +58,7 @@ const NavBar = () => {
           OpenWeather            
           </h1>
           <p>
-          I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.
+          OpenWeatherMap est un service en ligne, qui fournit des données météorologiques mondiales via API, y compris des données météorologiques actuelles, des prévisions actuelles et des données météorologiques historiques pour n'importe quel emplacement géographique.
           </p>
           </div>
 

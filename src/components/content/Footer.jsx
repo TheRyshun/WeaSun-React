@@ -15,7 +15,7 @@ const Footer = () => {
             <p className='text-center md:text-left'>
                 Site internet pour visualiser la météo sur un lieu précis avec ces détails comme l'humidité, le vent, etc....
                 <br />
-                Crée par Thomas Tetrel avec le langage React.JS et d'autres outils
+                Crée par Thomas Tetrel avec le langage React.JS et d'autres outils.
             </p>
             </div>
 

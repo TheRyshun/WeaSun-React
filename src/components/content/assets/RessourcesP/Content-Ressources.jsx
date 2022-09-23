@@ -13,13 +13,12 @@ const NavBar = () => {
                 Disponible 24/7
                 <br />
               </p>
-              <h1 className="text-4xl py-4 font-bold">
+              <h1 className="text-xl md:text-4xl py-4 font-bold">
                 Retrouver le code complet de WeaSun sur GitHub.
               </h1>
               <button
                 type="button"
-                class="border-4 border-black hover:border-[#9500a3] border-l-[#CE2ADC] hover:border-l-[#9500a3] text-white bg-black/90 font-medium rounded-lg text-lg px-5 py-2.5 my-8 text-center inline-flex items-center tracking-widest"
-              >
+                class="border-4 border-black hover:border-[#9500a3] border-l-[#CE2ADC] hover:border-l-[#9500a3] text-white bg-black/90 font-medium rounded-lg text-lg px-5 py-2.5 my-8 text-center inline-flex items-center tracking-widest">
                 <AiFillGithub className="mr-2 -ml-1 w-4 h-4" />
                 Github
               </button>
